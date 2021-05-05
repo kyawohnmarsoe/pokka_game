@@ -1,0 +1,20 @@
+{
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-jasminetea-production-190657-authRole",
+            "UnauthRoleArn": "arn:aws:iam::217300804996:role/amplify-jasminetea-production-190657-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::217300804996:role/amplify-jasminetea-production-190657-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-jasminetea-production-190657-deployment",
+            "UnauthRoleName": "amplify-jasminetea-production-190657-unauthRole",
+            "StackName": "amplify-jasminetea-production-190657",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:217300804996:stack/amplify-jasminetea-production-190657/91a0a740-772d-11ea-a538-065c8b35d570",
+            "AmplifyAppId": "dtnftnxp2igbr"
+        },
+        "categories": {
+            "auth": {
+                "jasmineteae70d8b92": {}
+            }
+        }
+    }
+}

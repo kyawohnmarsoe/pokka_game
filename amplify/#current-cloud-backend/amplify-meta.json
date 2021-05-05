@@ -1,0 +1,56 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "amplify-jasminetea-production-190657-authRole",
+			"UnauthRoleArn": "arn:aws:iam::217300804996:role/amplify-jasminetea-production-190657-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::217300804996:role/amplify-jasminetea-production-190657-authRole",
+			"Region": "ap-southeast-1",
+			"DeploymentBucketName": "amplify-jasminetea-production-190657-deployment",
+			"UnauthRoleName": "amplify-jasminetea-production-190657-unauthRole",
+			"StackName": "amplify-jasminetea-production-190657",
+			"StackId": "arn:aws:cloudformation:ap-southeast-1:217300804996:stack/amplify-jasminetea-production-190657/91a0a740-772d-11ea-a538-065c8b35d570",
+			"AmplifyAppId": "dtnftnxp2igbr"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-jasminetea-production-190657-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2020-04-05T11:48:34.109Z",
+			"output": {
+				"S3BucketSecureURL": "https://jasminetea-20200405190914-hostingbucket-production.s3.amazonaws.com",
+				"WebsiteURL": "http://jasminetea-20200405190914-hostingbucket-production.s3-website-ap-southeast-1.amazonaws.com",
+				"Region": "ap-southeast-1",
+				"HostingBucketName": "jasminetea-20200405190914-hostingbucket-production"
+			},
+			"lastPushDirHash": "PSXcdLcZO/b7rDD8HgCnbFevLTQ="
+		}
+	},
+	"auth": {
+		"jasmineteae70d8b92": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false,
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/amplify-jasminetea-production-190657-deployment/amplify-cfn-templates/auth/jasmineteae70d8b92-cloudformation-template.yml",
+				"logicalId": "authjasmineteae70d8b92"
+			},
+			"lastPushTimeStamp": "2020-04-05T11:48:34.112Z",
+			"output": {
+				"AppClientSecret": "1qimmf7agkkltj1jgd0agu40gdclht3tdh28m061h9jg71njghj6",
+				"UserPoolId": "ap-southeast-1_FumP22eHI",
+				"AppClientIDWeb": "7is02t7rbe23893mme1st5j9vf",
+				"AppClientID": "1tkia1k75rmn2c5s5h558ah850",
+				"IdentityPoolId": "ap-southeast-1:199932f3-b890-4082-8d87-034331a4279e",
+				"IdentityPoolName": "jasmineteae70d8b92_identitypool_e70d8b92__production",
+				"UserPoolName": "jasmineteae70d8b92_userpool_e70d8b92"
+			},
+			"lastPushDirHash": "tjm9fQP9QxYLHaINLksfVJg8P+M="
+		}
+	}
+}
