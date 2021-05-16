@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/game/static/css/main.949cc813.chunk.css",
+    "main.js": "/game/static/js/main.32107b8e.chunk.js",
+    "main.js.map": "/game/static/js/main.32107b8e.chunk.js.map",
+    "runtime-main.js": "/game/static/js/runtime-main.556979f1.js",
+    "runtime-main.js.map": "/game/static/js/runtime-main.556979f1.js.map",
+    "static/js/2.4d5770f6.chunk.js": "/game/static/js/2.4d5770f6.chunk.js",
+    "static/js/2.4d5770f6.chunk.js.map": "/game/static/js/2.4d5770f6.chunk.js.map",
+    "index.html": "/game/index.html",
+    "precache-manifest.c13e49818f37cd9b92244960a512d348.js": "/game/precache-manifest.c13e49818f37cd9b92244960a512d348.js",
+    "service-worker.js": "/game/service-worker.js",
+    "static/css/main.949cc813.chunk.css.map": "/game/static/css/main.949cc813.chunk.css.map",
+    "static/js/2.4d5770f6.chunk.js.LICENSE.txt": "/game/static/js/2.4d5770f6.chunk.js.LICENSE.txt",
+    "static/media/321-counting-down.png": "/game/static/media/321-counting-down.74ec8ea7.png",
+    "static/media/Asset7.png": "/game/static/media/Asset7.873798e3.png",
+    "static/media/game.css": "/game/static/media/instruction2.5a0ed59c.png",
+    "static/media/bottle.png": "/game/static/media/bottle.d5e18aff.png",
+    "static/media/bottle2.png": "/game/static/media/bottle2.1d094fda.png",
+    "static/media/flower.mp3": "/game/static/media/flower.e1623110.mp3",
+    "static/media/flower_kecil.png": "/game/static/media/flower_kecil.3ec165d4.png",
+    "static/media/points.png": "/game/static/media/points.cffea466.png",
+    "static/media/pokkabgmp3.mp3": "/game/static/media/pokkabgmp3.d99037e8.mp3",
+    "static/media/teapot.png": "/game/static/media/teapot.aa99eded.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.556979f1.js",
+    "static/js/2.4d5770f6.chunk.js",
+    "static/css/main.949cc813.chunk.css",
+    "static/js/main.32107b8e.chunk.js"
+  ]
+}
